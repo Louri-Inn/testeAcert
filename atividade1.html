@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script>
+            var uri = "http://viacep.com.br/ws/0857570/json/"
+    
+            fetch(uri)
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(function (json) {
+                    console.log(json)
+                    var elemento = document.getElementById('viaCep')
+                    elemento.append(JSON.stringify(json))
+                })
+                .catch(function (error) {
+                    alert('Ocorreu algum erro:: ' + error.message)
+                    throw error
+            })
+         </script>
+    </head>
+
+    <body>
+        <div>
+            <pre id="viaCep">
+
+            </pre>
+        </div>
+    </body>
+
+    
+
+</html>
