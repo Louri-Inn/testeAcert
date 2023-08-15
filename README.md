@@ -12,7 +12,7 @@ Para rodar e testar a aplicação dê o comando abaixo.
 
 	php artisan serve
 
-## Rodar o projeto e suas denpendências
+## Virtual Host
 
 Para rodar o projeto e suas dependências siga os seguintes passos.
 
