@@ -6,7 +6,7 @@ Nesse documento teremos informações de como rodar as aplicações e passo a pa
 
 Antes de rodar a aplicação em laravel rodar o seguinte comando no terminal na pasta raiz do projeto.
 
-	composer intall
+	composer install
 
 Após atualizar as dependencias para testar a aplicação rodar o comando abaixo.
 
