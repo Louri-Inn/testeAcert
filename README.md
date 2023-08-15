@@ -4,17 +4,17 @@ Nesse documento teremos informações de como rodar as aplicações e passo a pa
 
 ## Instalação
 
-Antes de rodar a aplicação dê o seguinte comando no terminal.
+Antes de rodar a aplicação em laravel rodar o seguinte comando no terminal na pasta raiz do projeto.
 
 	composer intall
 
-Para rodar e testar a aplicação dê o comando abaixo.
+Após atualizar as dependencias para testar a aplicação rodar o comando abaixo.
 
 	php artisan serve
 
 ## Virtual Host
 
-Para rodar o projeto e suas dependências siga os seguintes passos.
+Para rodar o projeto no apache siga os seguintes passos:
 
 - 1 - Criar o vitual host com o nome de atividades.conf na pasta /etc/apache2/sites-available com o seguinte conteudo:
 
@@ -99,6 +99,6 @@ atividade3.blade é toda a parte visual e funcional da aplicação, incluindo a 
 
 - 1 - Em tela apresenta 3 botões e o formulário de busca.
 - 2 - Após pesquisar um CEP a programação entra em Fetch fazendo as verificações e caso algo esteja errado já é devolvido para o usuario uma mensagem de erro.
-- 2.2 - Assim que estiver tudo correto a programção passa para a montagem da tabela.
-- 3 - Caso o cliente click no botão de exportar é ativado a função que verifica a tabela pegando as TH (titúlos) e TD (informações) transformando em um arquivo CSV, com o nome "atividade3.csv", criando um link e fazendo o download.
+- 2.2 - Assim que estiver tudo correto a programação passa para a montagem da tabela.
+- 3 - Caso o cliente click no botão de exportar, é ativado a função que verifica a tabela pegando os TH (titúlos) e TD (informações), transformando a tabela em um arquivo CSV, com o nome "atividade3.csv", criando um link e fazendo o download.
 - 4 - Abaixo fica a keypress para ativar o pesquisar pela tecla enter.
